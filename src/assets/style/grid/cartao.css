@@ -1,0 +1,39 @@
+.secao__cartoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 20px;
+}
+
+.cartao {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 20px;
+}
+
+.cartao__imagem {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.cartao__titulo, 
+.cartao__subtitulo,
+.cartao__player {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.cartao__subtitulo {
+  /* grid-row-start: 2; */
+  /* grid-row-end: 3; */
+}
+
+.cartao__player {
+  /* grid-row-start: 3; */
+}
+
+.cartao__botao {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
