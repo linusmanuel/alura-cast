@@ -55,6 +55,7 @@
 
     .menu-lateral {
         width: 213px;
+        display: grid;
 
     }
 
@@ -69,6 +70,7 @@
     .secao-horizontal .cartao__subtitulo {
         font: 400 14px/19px 'Open Sans', sans-serif;
         width: 100%;
+        grid-row: 4;
     }
 
     .secao-vertical .cartao {

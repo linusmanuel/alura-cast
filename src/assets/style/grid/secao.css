@@ -19,3 +19,20 @@
 .secao__titulo {
   align-self: center;
 }
+
+.secao-horizontal .secao__cartoes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.secao-vertical .secao__cartoes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.secao-horizontal .secao__cartoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(348px, 100%/3)), 1fr));
+}
